@@ -15,21 +15,21 @@ This Java application demonstrates basic CRUD (Create, Read, Update, Delete) ope
 1. **Create Database Table**
    - Execute the provided SQL script in your PostgreSQL database to create the `students` table:
 
-CREATE TABLE students (
+`CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
     enrollment_date DATE
-);
+);`
 
 2. **Insert Initial Data**
    - Use the given INSERT statement to add sample data to the table.
      
-INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
+`INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
-('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');`
 
 3. **Configure Database Connection**
    - Edit the Java file and set `URL`, `USER`, and `PASSWORD` values to match your PostgreSQL setup.
