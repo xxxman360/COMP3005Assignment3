@@ -36,5 +36,6 @@ This Java application demonstrates basic CRUD (Create, Read, Update, Delete) ope
    - Alternatively, leave the Java file as is and create a PostgresSQL database with hostname `postgres`, username `postgres`, and password `1337`
 
 4. **Compile the Java Program**
+   - Import the extracted project folder into IntelliJ and press the green triangle arrow to run the program
 
 ## Demo video: https://youtu.be/aMOlR544kPs
